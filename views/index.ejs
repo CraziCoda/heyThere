@@ -5,12 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HeyThere</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./styles/index.css"/>
+
 </head>
 <body>
     <div class="container">
-        <header>HeyThere</header>
-        <main>Majoycelyn</main>
-        <footer></footer>
+        <header>
+            <span class="title">HeyThere</span>
+        </header>
+        <main>
+            <div class="description">
+                
+            </div>
+            <div class="btn">
+                Get Start
+            </div>
+
+            <div class="register">
+                <span class="close fa fa-times"></span>
+                <div class="heading">Enter Info:</div>
+                <div class="userInfo">
+                    <div>
+                        <label for="username">Username: </label><br>
+                        <input id="username" type="text" class="info"/>
+                    </div>
+                    <div>
+                        <div class="label">Sex: </div>
+                        <label for="male">Male</label>
+                        <input id="male" name="gender" type="radio" value="Male"/>
+                        <label for="female">Female</label>
+                        <input name="gender" type="radio" value="Female"/>
+                    </div>
+                </div>
+                <div class="btn save">Save</div>
+            </div>
+        </main>
+        <footer>Contribute to Project: <a href="https://www.github.com/crazicoda">GitHub</footer>
     </div>
+    <script src="./javascript/animation.js"></script>
 </body>
 </html>
