@@ -30,7 +30,7 @@ header{
 .title{
     font-size: 20px;
     font-weight: 800;
-    font-family: "comic sans ms";
+    font-family: "Sofia";
     padding-left: 10px;
     color: whitesmoke;
 }
@@ -43,7 +43,7 @@ main{
 .description{
     width: 100%;
     word-wrap: break-word;
-    font-family: "comic sans ms";
+    font-family: "Sofia";
     font-size: 25px;
     text-align: center;
     /* display: none; */
